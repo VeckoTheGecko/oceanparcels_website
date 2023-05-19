@@ -42,10 +42,10 @@ hr {
 }
 
 .team-photo {
-  text-align:center;
-  display:block;
-  max-width:280px;
-  max-height:200px;
+  text-align: center;
+  display: block;
+  max-width: 280px;
+  max-height: 200px;
   margin: 0 auto;
 }
 
@@ -77,12 +77,19 @@ hr {
   }
 }
 
-a.tutorialLink:link{color:black}
-a.tutorialLink:visited{color:black}
-a.tutorialLink:hover{color:black; text-decoration: none;}
+a.tutorialLink:link {
+  color: black;
+}
+a.tutorialLink:visited {
+  color: black;
+}
+a.tutorialLink:hover {
+  color: black;
+  text-decoration: none;
+}
 
 span.pubnum {
-  float:right;
+  float: right;
   color: #868e96 !important;
   font-size: x-small;
   font-style: italic;
@@ -97,18 +104,17 @@ span.pubnum::before {
 /*  content: " using Parcels";*/
 /*}*/
 
-
 ul#footerul {
   list-style-type: none;
   display: table;
   margin: 0 auto;
 }
 
-li#footerli{
+li#footerli {
   float: left;
 }
 
-a#footera{
+a#footera {
   color: lightgray;
   text-align: center;
   padding: 30px;
